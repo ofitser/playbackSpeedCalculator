@@ -1,2 +1,2 @@
-# playback Speed Calculator
+# Playback Speed Calculator
 Калькулятор скорости видео. Показывает потраченное время/сэкономленное и etc...
