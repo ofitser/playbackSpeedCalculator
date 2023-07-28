@@ -1,0 +1,78 @@
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  h1 {
+    margin-top: 2rem;
+  }
+
+  label {
+    display: block;
+    margin-top: 1rem;
+  }
+
+  input[type="number"] {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    width: 10%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+
+  .result {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+  }
+
+
+  .result h2 {
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .result p {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+
+  .result .saved {
+    color: #0f0;
+  }
+
+  .result .spent {
+    color: #f00;
+  }
+
+
+  .result {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .speed {
+    text-align: center;
+  }
+  
+  .speed:nth-child(1) {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .speed:nth-child(n+2):nth-child(-n+5),
+  .speed:nth-child(n+6):nth-child(-n+9),
+  .speed:nth-child(n+10):nth-child(-n+13),
+  .speed:nth-child(n+14):nth-child(-n+15) {
+    width: calc(25% - 20px);
+    margin: 10px;
+  }
+  
+  
